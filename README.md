@@ -6,3 +6,16 @@ Step-1:
 
 Step-2:
   Enter ``from account.account import *`` in your main project.
+  
+Step-3:
+  Now you can code a simple account system:
+  `from account.account import*
+state = get_config("account_state")
+if state == "false":
+    print("SIGNUP:")
+    result = signup(input("Username:"), input("Password:"))
+    print(result)
+elif state == "true":
+    print("LOGIN:")
+    result = login(input("Username:"), input("Password:"))
+    print(result)`
