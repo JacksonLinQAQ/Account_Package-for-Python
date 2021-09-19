@@ -1,6 +1,8 @@
-# Account_Package-for-Python
+## Account_Package-for-Python
 
 It is a package can code a simple account system in Python.
+
+#Steps:
 
 Step-1:
   Put the account package and your main project into a same folder.
@@ -24,3 +26,5 @@ elif state == "true": # if the state is true(User have created account)
     result = login(input("username:"), input("password:")) # get username and password then run login process get the result put it to variable: `result` 
     print(result)
 ```
+
+
