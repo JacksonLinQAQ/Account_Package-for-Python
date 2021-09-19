@@ -11,14 +11,14 @@ Step-2:
 Step-3:
   Now you can code a simple account system:
 ```  
-from account.account import*
-state = get_config("account_state")
-if state == "false":
+from account.account import* # import account package
+state = get_config("account_state") # get the account_state (if the username is none, the state is `false`, that mean user haven't created account yet, else                                                                the state is true, that mean user have created account)
+if state == "false": # if the state is false(User haven't created account yet)
     print("SIGNUP:")
-    result = signup(input("username:"), input("password:"))
+    result = signup(input("username:"), input("password:")) # get username and password then run signup process get the result put it to variable: `result` 
     print(result)
-elif state == "true":
+elif state == "true": # if the state is true(User have created account)
     print("LOGIN:")
-    result = login(input("username:"), input("password:"))
+    result = login(input("username:"), input("password:")) # get username and password then run login process get the result put it to variable: `result` 
     print(result)
 ```
