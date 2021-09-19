@@ -13,10 +13,10 @@ Step-3:
 `from account.account import*`  
 `state = get_config("account_state")`  
 `if state == "false":`  
-`    print("SIGNUP:")`  
-    result = signup(input("username:"), input("password:"))
-    print(result)
-elif state == "true":
-    print("LOGIN:")
-    result = login(input("username:"), input("password:"))
-    print(result)
+` print("SIGNUP:")`  
+`  result = signup(input("username:"), input("password:"))`  
+`  print(result)`  
+`elif state == "true":`  
+`  print("LOGIN:")`  
+`  result = login(input("username:"), input("password:"))`  
+`  print(result)`  
