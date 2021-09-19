@@ -13,6 +13,7 @@ Step-3:
 ```  
 from account.account import* # import account package
 state = get_config("account_state") # get the account_state (if the username is none, the state is `false`, that mean user haven't created account yet, else                                                                the state is true, that mean user have created account)
+
 if state == "false": # if the state is false(User haven't created account yet)
     print("SIGNUP:")
     result = signup(input("username:"), input("password:")) # get username and password then run signup process get the result put it to variable: `result` 
