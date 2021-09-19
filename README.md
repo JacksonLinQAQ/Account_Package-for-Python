@@ -27,4 +27,8 @@ elif state == "true": # if the state is true(User have created account)
     print(result)
 ```
 
+### Package codes:
 
+`recovery()`: Reset all settings to default
+
+`login(username, password)`: Login with username and password and return a result
