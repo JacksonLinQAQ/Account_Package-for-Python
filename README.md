@@ -5,7 +5,7 @@ It is a package can code a simple account system in Python.
 ### Steps:
 
 Step-1:
-  Extract the account.zip package.
+  Extract the [account.zip](https://github.com/JacksonLinQAQ/Account_Package-for-Python/raw/main/account.zip) package.
 
 Step-2:
   Put the account package and your main project into a same folder.
