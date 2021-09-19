@@ -5,12 +5,15 @@ It is a package can code a simple account system in Python.
 ### Steps:
 
 Step-1:
-  Put the account package and your main project into a same folder.
+  Extract the account package.
 
 Step-2:
+  Put the account package and your main project into a same folder.
+
+Step-3:
   Import the account package using code: ``from account.account import *`` to your main project.
   
-Step-3:
+Step-4:
   Now you can code a simple account system:
 ```  
 from account.account import* # import account package
