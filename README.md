@@ -32,3 +32,12 @@ elif state == "true": # if the state is true(User have created account)
 `recovery()`: Reset all settings to default
 
 `login(username, password)`: Login with username and password and return a result
+
+`signup(username, password)`: Signup with username and password and return a result
+
+`get_config(src)`: Get config
+- src: all / account_state
+
+`setting(login_true, login_false, signup_true)`
+- (login_true, login_false, signup_true): result texts
+- use `none` to skip the blanks
