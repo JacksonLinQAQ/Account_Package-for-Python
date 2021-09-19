@@ -5,4 +5,4 @@ Step-1:
   Put the account package and your main project into a same folder.
 
 Step-2:
-  Enter "from account.account import *" in your main project
+  Enter ``from account.account import *`` in your main project
