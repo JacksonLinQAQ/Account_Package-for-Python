@@ -1,8 +1,8 @@
-## Account_Package-for-Python
+# Account_Package-for-Python
 
 It is a package can code a simple account system in Python.
 
-# Steps:
+### Steps:
 
 Step-1:
   Put the account package and your main project into a same folder.
