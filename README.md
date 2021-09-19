@@ -38,6 +38,9 @@ elif state == "true": # if the state is true(User have created account)
 `get_config(src)`: Get config
 - src: all / account_state
 
-`setting(login_true, login_false, signup_true)`
+`setting(login_true, login_false, signup_true)`: Change the result texts(use `None` to skip the blanks)
 - (login_true, login_false, signup_true): result texts
-- use `none` to skip the blanks
+- use `none` to skip the blanks if you don't want to change it
+- login_true: if login success(correct username and password)
+- login_false: if username or password wrong
+- signup_true: if signup success
